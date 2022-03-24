@@ -1,0 +1,25 @@
+.btn-primary, .btn-outline-primary{
+  font-weight: bold !important;
+}
+
+.btn-primary{
+  background-color: #AD4900 !important;
+  border-color: #AD4900 !important;
+}
+
+.btn-primary:hover{
+  background-color: #8F2B00 !important;
+  border-color: #8F2B00 !important;
+}
+
+.btn-outline-primary{
+  border-width: 2px;
+  border-color: #086BA8 !important;
+  color: #086BA8 !important;
+}
+
+.btn-outline-primary:hover{
+  background-color: #086BA8 !important;
+  border-color: #086BA8 !important;
+  color: #FFF9F5 !important;
+}

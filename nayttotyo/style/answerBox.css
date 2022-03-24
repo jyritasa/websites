@@ -1,0 +1,17 @@
+.answerBox {
+  background-color: #81f7cc;
+  min-width: 365px;
+  min-height: 100px;
+  width: 65%;
+  border: solid 2px #6fd6b1;
+  padding: 15px;
+  margin: 5px;
+  z-index: 1;
+}
+
+/* 4sen lomake on niin leveä että se vie enemmän kuin 50% ruudusta
+// joten vastaus laatikkoa pitää pienentää*/
+
+#tehtava4 .answerBox {
+  width: 50%;
+}

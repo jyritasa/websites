@@ -1,0 +1,27 @@
+#services-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services-subsection {
+  border: 2px solid #086BA8;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 255px;
+}
+
+@media only screen and (max-width:500px) {
+  .services-subsection {
+    width: 500px;
+  }
+}
+
+.services-subsection h3{
+  text-align: center;
+}
+
+.services-headline{
+  text-align: center;
+}

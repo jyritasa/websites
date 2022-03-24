@@ -1,0 +1,92 @@
+/* Lomakkeiden yleiset ja sivukohtaiset säädöt*/
+
+/* Tehdään kiva custom nappi
+// Halusin sellaisen "rubber dome button aesthetic" painaessa*/
+input[type=button], input[type=submit], input[type=reset] {
+  border-radius: 15px;
+  background-color: #f74592;
+  /* Jotta napin koko säilyy värin vaihdossa.*/
+  border: 3px solid #f666a4;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #cd3577;
+  border: 3px solid #f74592;
+}
+
+input[type=button]:focus, input[type=submit]:focus, input[type=reset]:focus {
+  background-color: #952556;
+  border: 3px solid #cd3577;
+}
+
+form {
+  background-color: #81f7cc;
+  width: 25%;
+  min-width: 215px;
+  border: solid 2px #6fd6b1;
+  padding: 15px;
+  margin: 5px;
+  z-index: 1;
+}
+
+input[type=text], input[type=number], select{
+  border: 1px solid #6fd6b1;
+}
+
+/*Tehtava 2selle määritellään input fieldien koot merkkeinä*/
+#age {
+  width: 3em
+}
+
+/*Optimistisena sitä varten että joku laskee miljoona tulojaan*/
+#income {
+  width: 9em
+}
+
+#tax {
+  width: 4em
+}
+
+/* Tämä on tehtävä 3selle.
+//
+// Tehdään formista flex box ja pisimmän tekstin pituinen.
+// Flex Boxi on Pinossa ja niissä osissa jossa on kaksi osaa, eli label ja select.
+// Niistä omat Flex Boxit ja niihin justify content space between että saan
+// selectorit tasattua oikealle nätisti. */
+
+#tehtava3 form{
+min-width: 256px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+#tehtava3 .long {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 245px;
+}
+
+/* Tehtävä 4selle. Sama idea kuin kolmosessa*/
+
+#tehtava4 form{
+width: 40%;
+min-width: 350px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+#tehtava4 .long {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 340px;
+  min-width: 300px;
+}

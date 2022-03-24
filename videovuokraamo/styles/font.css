@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+p, h1, h2, h3, h4, label, li, td{
+  font-family: 'Dosis', sans-serif;
+  color: #ea670f;
+}
+
+h1 {
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}

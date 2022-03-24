@@ -1,0 +1,62 @@
+/*
+Colors:
+Primary #086BA8
+Secondary #0096F5
+Highlights #AD4900
+#8F2B00 highlighs hover
+Texts #054065
+Neutral #FFF9F5
+
+Font-family: Barlow
+
+PARAGRAPH
+SIZE: 16PX;
+weight: regular;
+line-height: 1.4;
+
+*/
+@import "fonts.css";
+@import "buttons.css";
+@import "hero.css";
+@import "footer.css";
+@import "services.css";
+
+body {
+  max-width: 1080px;
+  margin: auto;
+  height: 100vh;
+  padding: 5px;
+}
+
+.reference-section {
+  background-color: #cbced4;
+}
+
+.reference-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.introduction-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.carousel-inner-oma {
+  min-height: 520px;
+  max-height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+
+.carousel-item-oma{
+  padding-left: 30px;
+}
+
+.carousel-item-oma:last-child {
+  padding-bottom: 20px
+}

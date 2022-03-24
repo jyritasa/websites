@@ -1,0 +1,13 @@
+/*Footterin Säädökset. Minulla oli idea tälle mutta katsotaan jos saan sen aikaan*/
+
+footer {
+  border-top: solid black 1px;
+  background-color: #6fd6b1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  z-index: 2;
+}

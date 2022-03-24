@@ -1,0 +1,27 @@
+footer {
+  background-color: #cbced4;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.footer-item {
+  padding: 5px;
+  min-width: 360px;
+}
+
+.copyright-text {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contact-information p{
+  padding-left: 10px;
+}
+
+.form-group {
+  padding-bottom: 10px !important;
+}

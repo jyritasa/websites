@@ -1,0 +1,28 @@
+.formcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formbox {
+  padding: 10px;
+  margin-right: 20px;
+  border: 3px solid #ea670f;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.overduebox{
+  border: 3px solid #ea670f;
+  border-radius: 10px;
+  min-width: 100%;
+  min-height: 50px;
+}
+
+.overduebox table {
+  width: 100%;
+}
+
+.refreshbutton{
+  margin: 20px;
+}

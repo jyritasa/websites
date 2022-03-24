@@ -1,0 +1,47 @@
+p, h1, h2, h3, h4, li {
+  font: Barlow;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 1.4;
+  color: #054065;
+}
+
+hr{
+  color: #054065;
+}
+
+h1, h2, h3, h4{
+  color: #086BA8;
+}
+
+a, .nav-link {
+  color: #AD4900 !important;
+}
+
+a:hover, .nav-link:hover {
+  color: #8F2B00 !important;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#services-section li {
+    list-style-type: circle !important;
+}

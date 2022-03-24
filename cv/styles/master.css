@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/*
+LIGHT:
+background-color: #00ffae;
+background: linear-gradient(90deg, #8c0f52 0%, #f50284 100%);
+background-image: url("../images/dinosaur.svg");
+
+DARK:
+background-color: black;
+background: linear-gradient(90deg, #380078 0%, #803dcc 100%);
+background-image: url("../images/bear.svg");
+*/
+
+body {
+  background-image: url("../images/bear.svg");
+  background-position: 103% 50%;
+  background-repeat: no-repeat;
+  background-size: 25% auto;
+  background-attachment: fixed;
+  background-color: black;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  height:100vh;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.main-grid {
+  max-width: 1080px;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  margin-top:auto;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Arvo', serif;
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.4rem;
+  margin: 5px;
+}
+
+footer p{
+  font-size: 16px;
+}
+
+a {
+  color: wh
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+  border-radius: 25px;
+  padding: 15px;
+  max-width: 800px;
+  background: linear-gradient(90deg, #380078 0%, #803dcc 100%);
+  animation: slide-up 1s ease;
+}
+
+.cardimg {
+  float: left;
+  margin-right: 5px;
+}
+
+.faceimg{
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1800px) {
+  body {
+    background-size: 20% auto;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  body {
+    background-size: 15% auto;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  body {
+    background-size: 10% auto;
+    background-position: 101% 50%;
+
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    background-size: 7% auto;
+    background-position: 101% 50%;
+
+  }
+}
+
+@media only screen and (max-width: 1225px) {
+  body {
+    background-position: 101% 0%;
+    background-size: 8rem auto;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.6rem;
+    margin: 45px;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .main-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -1,0 +1,54 @@
+@import "navbar.css";
+@import "form.css";
+@import "font.css";
+@import "button.css";
+@import "movie.css";
+@import "mypage.css";
+
+body {
+  max-width: 1080px;
+  background-color: #000000;
+  margin: auto;
+  height:100vh;
+}
+
+header{
+  min-height:50px;
+}
+
+footer{
+  min-height:50px;
+  background-color: #333;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+}
+
+footer{
+  margin-top:auto;
+}
+
+.logotext {
+  display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logotext p {
+  margin: 0px;
+  font-size: 90px;
+}
+
+.imgdiv {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.audiodiv {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+/*ERROR 404 sivun Säädökset*/
+
+/*Haluan keskittää Error viestin ja kuvan*/
+.error {
+  text-align: center;
+}
+
+.error img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  height:auto;
+}

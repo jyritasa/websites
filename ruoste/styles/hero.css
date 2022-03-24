@@ -1,0 +1,51 @@
+video {
+  height: auto;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero-container {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-container video {
+  display: block;
+  
+  background-attachment: fixed;
+}
+
+.hero-container h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  text-align: center;
+  font-size: 5vw;
+}
+
+.hero-container button {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+/*Max Size for the Hero text*/
+@media screen and (min-width: 1080px) {
+  .hero-container h1 {
+    font-size: 56px;
+  }
+}
